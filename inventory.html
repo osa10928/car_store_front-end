@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CarsCarsCars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cantarell|Montserrat|Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top bg-faded navbar-expand-lg">
+      <div id="logo-container" class="d-flex">
+        <a class="headerlogo mr-4 mt-2" href="index.html">
+            <img id="headerlogo" class="img-fluid" src="images/logo.png" />
+        </a>
+        <div id="headername" class="d-flex flex-nowrap align-items-center">Cars!Cars!!Cars!!!</div>
+      </div>
+      <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse flex-row justify-content-end w-25" id="navbar-collapse-1">
+        <ul class="navbar-nav nav text-end text-center">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="inventory.html">Inventory</a></li>
+          <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container-fluid pt-5">
+      <div id="car-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators">
+          <li data-target="#car-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#car-carousel" data-slide-to="1"></li>
+          <li data-target="#car-carousel" data-slide-to="2"></li>
+          <li data-target="#car-carousel" data-slide-to="3"></li>
+          <li data-target="#car-carousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <h5 class="text-center">C-Class Sedan</h5>
+            <img class="d-block img-fluid" src="images/c-class-sedan.png" alt="C-Class Sedan">
+          </div>
+          <div class="carousel-item">
+            <h5 class="text-center">Mercedes-Maybach</h5>
+            <img class="d-block img-fluid" src="images/mercedes-maybach.png" alt="Mercedes-Maybach">
+          </div>
+          <div class="carousel-item">
+            <h5 class="text-center">GLC-Coupe</h5>
+            <img class="d-block img-fluid" src="images/glc-coupe.png" alt="GLC Coupe">
+          </div>
+          <div class="carousel-item">
+            <h5 class="text-center">GLE-SUV</h5>
+            <img class="d-block img-fluid" src="images/gle-suv.png" alt="GLS SUV">
+          </div>
+          <div class="carousel-item">
+            <h5 class="text-center">Mercedes-AMG GT Roadster</h5>
+            <img class="d-block img-fluid" src="images/mercedes-amg-gt-roadster.png" alt="Mercedes-AMG GT Roadster">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#car-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#car-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div id="inventory-container" class="d-flex flex-column align-item-center mx-auto">
+        <div id="inventory-toolbar" class="text-center">
+          <h3 class="mb-3">Inventory</h3>
+          <input type="search" class="searchbox text-center" placeholder="Search Inventory" />
+        </div>
+        <div id="inventory">
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

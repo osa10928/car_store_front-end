@@ -1,0 +1,27 @@
+cars = [
+  {
+    "name": "C-Class Sedan",
+    "price": "$40250",
+    "image": "images/c-class-cedan.png"
+  },
+  {
+    "name": "Mercedes-Maybach",
+    "price": "$168,600",
+    "image": "images/mercedes-maybach.png"
+  },
+  {
+    "name": "GLC Coupe",
+    "price": "$46,600",
+    "image": "images/glc-coupe.png"
+  },
+  {
+    "name": "GLE SUV",
+    "price": "$52,200",
+    "image":"images/gls-suv.jpeg"
+  },
+  {
+    "name": "Mercedes-AMG GT Roadster",
+    "price": "$124,400",
+    "image": "images/mercedes-amg-gt-roadster.png"
+  }
+]
