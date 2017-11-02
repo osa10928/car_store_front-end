@@ -90,4 +90,44 @@ nav a {
   border-radius: 15px;
 }
 
+div.carousel-item h3 {
+  position: relative;
+  top: 35px;
+  font-size: 2.5rem;
+  font-family: 'Open Sans', 'Cantarell', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+#inventory {
+  margin-bottom: 10%;
+}
+
+article.car-container {
+  padding-top: 3%;
+  padding-left: 0;
+  padding-right: 0;
+  background: white;
+  border-right: solid thin rgba(107, 63, 160, 1);
+  border-left: solid thin rgba(107, 63, 160, 1);
+  width: 100%;
+  overflow: hidden;
+}
+
+article.car-container:last-child {
+  border-bottom: solid thin rgba(107, 63, 160, 1);
+}
+
+.car-name {
+  font-family: 'Open Sans', 'Cantarell', sans-serif;
+  font-style: italic;
+}
+
+button.car-price-btn {
+  margin-top: 5%;
+  background: rgba(107, 63, 160, 1);
+  color: white;
+  cursor: pointer;
+}
+
 /* End Inventory Page */

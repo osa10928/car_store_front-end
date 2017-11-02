@@ -1,8 +1,9 @@
-cars = [
+{
+  "cars" : [
   {
     "name": "C-Class Sedan",
-    "price": "$40250",
-    "image": "images/c-class-cedan.png"
+    "price": "$40,250",
+    "image": "images/c-class-sedan.png"
   },
   {
     "name": "Mercedes-Maybach",
@@ -17,7 +18,7 @@ cars = [
   {
     "name": "GLE SUV",
     "price": "$52,200",
-    "image":"images/gls-suv.jpeg"
+    "image":"images/gle-suv.png"
   },
   {
     "name": "Mercedes-AMG GT Roadster",
@@ -25,3 +26,4 @@ cars = [
     "image": "images/mercedes-amg-gt-roadster.png"
   }
 ]
+}
