@@ -25,7 +25,7 @@ function addToInventory(car, key){
     //add title row androw with info and pic
     '<div class="col-12 text-center h4 car-name">' + car.name +
     '</div><div class="col-9 car-image"><img class="img-fluid" src="' +
-     car.image + '"/></div><div class="col-3 car-price-container row"><div class="col-12 car-price" id="' +
+     car.image + '"/></div><div class="col-3 car-price-container row"><div class="col-12 text-center car-price" id="' +
      name + '-price">' + car.price + '</div><button class="col-12 car-price-btn btn" id="' +
     name + '-button">w/Tax</button></div>').appendTo('#inventory')
 }

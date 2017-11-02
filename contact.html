@@ -33,6 +33,40 @@
       </div>
     </nav>
     <main class="container-fluid">
+      <div id="welcomeimage" class="text-center">
+        <img class="img-fluid" src="images/logo.png" alt="Logo">
+      </div>
+      <form id="contactForm" class="text-center mt-5">
+        <fieldset>
+          <div>
+          <legend>Enter your Contact info below:</legend>
+           <p>
+          <label for="fullname">Full Name:</label><input type="text" name="fullname" id="fullname">
+           </p>
+      <p>
+          <label for="email">   Email:</label><input type="email" name="email" id="email">
+      </p>
+      <p>
+          <label for="yloc">   Loaction:</label>
+          <select name="" id="yloc">
+            <option value="0">USA</option>
+            <option value="1">Other</option>
+          </select>
+      </p>
+      <p><label for="quest">Your Question</label><br>
+        <textarea name="quest" id="" cols="50" rows="10" maxlength="500"></textarea></p>
+      </div>
+
+      </fieldset>
+        <p>
+        <button id="btnSendInfo" class="submitbutton">Send Info</button>
+        </p>
+      </form>
     </main>
+    <footer class="d-flex flex-column justify-content-center align-items-center">
+      <p>Our address is <address>6363 Hadock Houston, TX 77049</address></p>
+      <p class="textcontent">Images of Cars brought to you by <a class="mainlink" target="_blank" href="https://www.mbusa.com/mercedes/index?gclid=CjwKCAjwhOvPBRBxEiwAx2nhLleow-HKges7zW5jAOCyXVrv0Cfsi-e0X5HNAxnstDYWGsSMc-poihoCzbkQAvD_BwE">Mercedes USA</a></p>
+      <p class="smalltext">This page was generated on <time>05:22:07.123</time>.</p>
+    </footer>
   </body>
 </html>
